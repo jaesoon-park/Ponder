@@ -1,0 +1,21 @@
+git -> setting -> SSH and GPG keys -> NEW SSH key 
+-> key란에 가상환경 퍼블릭키 기입 
+-> git clone 주소에서 https 에서 ssh 로 변환 
+-> 가상환경에서 git clone ssh 주소  
+
+#퍼블릭키 보기 -> git push 할때 패스위드 필요 x
+ssh-keygen -t rsa 
+enter enter enter 
+.ssh
+cat .ssh/id_rsa.pub
+
+깃 repository 생성 
+git clone 
+디렉토리생성 
+vim ex...c 
+git add ex..c 
+git commit -m "커밋"
+git config --global --edit
+git push
+
+biocourse 
